@@ -1,13 +1,12 @@
 {
   "name": "node-red-railway",
   "version": "1.0.0",
-  "description": "Node-RED en Railway",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "node-red": "^4.1.4"
+    "express": "^4.18.2",
+    "node-red": "^3.1.0"
   }
 }
-
